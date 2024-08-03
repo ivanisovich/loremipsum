@@ -43,6 +43,18 @@
   .button--burger {
     display: flex;
   }
+
+  .header__nav.visible{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    background-color: rgba(16, 16, 29, 0.9);
+    right: 0px;
+    top: 97px;
+    padding: 20px;
+  }
+
 }
 
 @media (max-width: 768px) {

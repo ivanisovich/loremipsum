@@ -72,3 +72,9 @@ updateCarousel();
 function updateRangeValue(value) {
   document.getElementById("range_display").textContent = value + "%";
 }
+
+document.addEventListener("click",(e)=>{
+  if(e.target.closest(".button--burger")){
+    document.querySelector(".header__nav").classList.toggle("visible")
+  }
+})
